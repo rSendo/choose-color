@@ -1,0 +1,31 @@
+.circle {
+    width: 40vh;
+    height: 40vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border-bottom: 120px solid silver;
+    border-left: 120px solid slategray;
+    border-right: 120px solid gray;
+    border-top: 120px solid lightgray;
+    margin: 0 auto;
+    transition: transform 10s cubic-bezier(0.32,-0.34, 0, 1.35), background-color 10s ease, border 3s ease-in-out;
+}
+
+.active {
+    transform: rotate(113690deg);
+    border-bottom-color: lightcoral;
+    border-left-color: deeppink;
+    border-right-color: hotpink;
+    border-top-color: coral;
+    background-color: pink;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
